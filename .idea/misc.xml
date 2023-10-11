@@ -3,6 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/aa.xml" value="0.117" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/bb.xml" value="0.117" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/cc.xml" value="0.117" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/dd.xml" value="0.164" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ee.xml" value="0.164" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ff.xml" value="0.164" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/hh.xml" value="0.164" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.117" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.164" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ic_baseline_notifications_none_24.xml" value="0.117" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ic_baseline_people_24.xml" value="0.164" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.164" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.164" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.117" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ii.xml" value="0.164" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/kk.xml" value="0.1" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ll.xml" value="0.127" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_adapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_detailcustomer.xml" value="0.20416666666666666" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_inputadmin.xml" value="0.19444444444444445" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_inputcustomer.xml" value="0.18" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_masuk.xml" value="0.20416666666666666" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_registrasi.xml" value="0.20416666666666666" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_tampiladmin.xml" value="0.19444444444444445" />
+        <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_tampilcustomer.xml" value="0.20416666666666666" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/aa.xml" value="0.201" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/bb.xml" value="0.201" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/cc.xml" value="0.201" />
@@ -13,8 +41,7 @@
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/hh.xml" value="0.2" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.179" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ii.xml" value="0.2105" />
-        <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/pp.xml" value="0.2" />
-        <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_adapter.xml" value="0.22" />
+        <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_adapter.xml" value="0.203125" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_detailcustomer.xml" value="0.20416666666666666" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_inputcustomer.xml" value="0.22" />
@@ -22,26 +49,8 @@
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_masuk.xml" value="0.20416666666666666" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_registrasi.xml" value="0.22" />
-        <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_tampiladmin.xml" value="0.20416666666666666" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_tampilcustomer.xml" value="0.22" />
         <entry key="..\:/Salma Xi Rpl 3/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/adapter.xml" value="0.203125" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/bb.xml" value="0.1235" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/cc.xml" value="0.1235" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/dd.xml" value="0.1235" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ee.xml" value="0.1235" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/ff.xml" value="0.1235" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/hh.xml" value="0.1235" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_adapter.xml" value="0.20416666666666666" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_detailcustomer.xml" value="0.20416666666666666" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_inputadmin.xml" value="0.22" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_inputcustomer.xml" value="0.20416666666666666" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_masuk.xml" value="0.20416666666666666" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_registrasi.xml" value="0.20416666666666666" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_tampiladmin.xml" value="0.20416666666666666" />
-        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_tampilcustomer.xml" value="0.25" />
       </map>
     </option>
   </component>
