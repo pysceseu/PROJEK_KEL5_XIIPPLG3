@@ -20,8 +20,7 @@
         <EditText
             android:id="@+id/editTextTextPersonName15"
             android:layout_width="330dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="40dp"
+            android:layout_height="55dp"
             android:layout_marginTop="17dp"
             android:layout_marginBottom="37dp"
             android:background="@drawable/aa"
@@ -31,16 +30,15 @@
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
             app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
 
         <EditText
             android:id="@+id/editTextTextPersonName7"
             android:layout_width="330dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="39dp"
-            android:layout_marginTop="72dp"
-            android:layout_marginEnd="15dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="70dp"
             android:background="@drawable/aa"
             android:ems="10"
             android:fontFamily="@font/jost_bold"
@@ -48,18 +46,20 @@
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button3"
             android:layout_width="221dp"
             android:layout_height="56dp"
             android:layout_marginStart="82dp"
             android:layout_marginTop="37dp"
-            android:backgroundTint="#479ECE"
-            android:text="simpan"
+            android:background="@drawable/ii"
+            android:fontFamily="@font/jost_bold"
+            android:text="s i m p a n"
+            android:textColor="@color/white"
+            android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName15" />
 
@@ -78,17 +78,27 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
-            android:layout_marginTop="19dp"
-            android:layout_marginEnd="121dp"
+            android:layout_marginEnd="118dp"
             android:fontFamily="@font/lilita_one"
             android:text="Input data admin"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -106,15 +116,24 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
         app:srcCompat="@drawable/admin_removebg_preview" />
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="98dp"
-        android:layout_height="104dp"
-        android:layout_marginTop="68dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/pp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
-        app:srcCompat="@drawable/admin_removebg_preview" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/admin_removebg_preview" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
