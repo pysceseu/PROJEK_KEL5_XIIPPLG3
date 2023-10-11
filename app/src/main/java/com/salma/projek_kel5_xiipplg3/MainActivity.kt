@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(
                     Intent(this,login::class.java))
                 finish()
-            },3000
+            },2000
         )
     }
 }
