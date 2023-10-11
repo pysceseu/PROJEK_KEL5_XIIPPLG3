@@ -14,6 +14,9 @@
         android:theme="@style/Theme.PROJEK_KEL5_XIIPPLG3"
         tools:targetApi="31">
         <activity
+            android:name=".inputadmin"
+            android:exported="false" />
+        <activity
             android:name=".tampiladmin"
             android:exported="false" />
         <activity
