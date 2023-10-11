@@ -163,14 +163,14 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
 
         <ImageView
-            android:id="@+id/imageView13"
+            android:id="@+id/imageView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/whatsapp_image_2023_10_05_at_09_02_29" />
+            app:srcCompat="@drawable/admin_removebg_preview" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
