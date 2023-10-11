@@ -73,7 +73,7 @@
             android:layout_marginTop="172dp"
             android:orientation="vertical"
             android:background="@drawable/aa"
-            android:elevation="10dp"
+            android:elevation="11dp"
             app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
