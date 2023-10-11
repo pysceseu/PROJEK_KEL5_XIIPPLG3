@@ -17,6 +17,9 @@
             android:name=".inputadmin"
             android:exported="false" />
         <activity
+            android:name=".editcustomer"
+            android:exported="false" />
+        <activity
             android:name=".tampiladmin"
             android:exported="false" />
         <activity
