@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".dashboard2">
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/edunm"
-        app:layout_constraintTop_toTopOf="@+id/edunm"
-        app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
-
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
@@ -31,31 +21,31 @@
         app:layout_constraintStart_toStartOf="@+id/imageView8" />
 
     <EditText
-        android:id="@+id/edpswd"
+        android:id="@+id/editText2"
         android:layout_width="340dp"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/aa"
         android:ems="10"
-        android:text="Masuk dengan Email"
         android:inputType="textPersonName"
         android:paddingLeft="55dp"
-        app:layout_constraintEnd_toEndOf="@+id/edunm"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/edunm"
-        app:layout_constraintTop_toBottomOf="@+id/edunm" />
+        android:text="Daftar dengan Email"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <EditText
-        android:id="@+id/edunm"
+        android:id="@+id/editText"
         android:layout_width="340dp"
         android:layout_height="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="52dp"
         android:background="@drawable/aa"
         android:ems="10"
-        android:text="Login dengan Google"
         android:inputType="textPersonName"
         android:paddingLeft="55dp"
+        android:text="Login dengan Google"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -65,8 +55,8 @@
         android:layout_height="30dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toStartOf="@+id/edunm"
-        app:layout_constraintTop_toTopOf="@+id/edunm"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="@+id/editText"
         app:srcCompat="@drawable/gg" />
 
     <ImageView
@@ -75,28 +65,28 @@
         android:layout_height="30dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toStartOf="@+id/edpswd"
-        app:layout_constraintTop_toTopOf="@+id/edpswd"
+        app:layout_constraintStart_toStartOf="@+id/editText2"
+        app:layout_constraintTop_toTopOf="@+id/editText2"
         app:srcCompat="@drawable/email" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgregister"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/edunm"
-        app:layout_constraintTop_toTopOf="@+id/edunm"
+        app:layout_constraintEnd_toEndOf="@+id/editText2"
+        app:layout_constraintTop_toTopOf="@+id/editText2"
         app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imggoogle"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/edpswd"
-        app:layout_constraintTop_toTopOf="@+id/edpswd"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="@+id/editText"
         app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
 
     <ImageView

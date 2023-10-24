@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imgLeftBack"
+            android:id="@+id/imgLeftinpcus"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="20dp"
@@ -34,8 +34,8 @@
             android:text="Input data customer"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
-            app:layout_constraintBottom_toBottomOf="@+id/imgLeftBack"
-            app:layout_constraintStart_toEndOf="@+id/imgLeftBack" />
+            app:layout_constraintBottom_toBottomOf="@+id/imgLeftinpcus"
+            app:layout_constraintStart_toEndOf="@+id/imgLeftinpcus" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
 
         <EditText
-            android:id="@+id/editTextTextPersonName12"
+            android:id="@+id/inpTglSelesai"
             android:layout_width="330dp"
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
@@ -59,12 +59,12 @@
             android:hint="Selesai"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName11"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName11"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+            app:layout_constraintEnd_toEndOf="@+id/inpTgl"
+            app:layout_constraintStart_toStartOf="@+id/inpTgl"
+            app:layout_constraintTop_toBottomOf="@+id/inpTgl" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName11"
+            android:id="@+id/inpTgl"
             android:layout_width="330dp"
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
@@ -74,27 +74,28 @@
             android:hint="Tanggal"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName10"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName10"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+            app:layout_constraintEnd_toEndOf="@+id/inpBerat"
+            app:layout_constraintStart_toStartOf="@+id/inpBerat"
+            app:layout_constraintTop_toBottomOf="@+id/inpBerat" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName10"
+            android:id="@+id/inpBerat"
             android:layout_width="330dp"
             android:layout_height="50dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="12dp"
             android:background="@drawable/aa"
             android:ems="10"
             android:fontFamily="@font/jost_bold"
             android:hint="Berat"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName9"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName9"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
+            app:layout_constraintEnd_toEndOf="@+id/inpKeterangan"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/inpKeterangan"
+            app:layout_constraintTop_toBottomOf="@+id/inpKeterangan" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName9"
+            android:id="@+id/inpKeterangan"
             android:layout_width="330dp"
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
@@ -104,12 +105,12 @@
             android:hint="Keterangan"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName8"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName8"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+            app:layout_constraintEnd_toEndOf="@+id/inpAlamatcus"
+            app:layout_constraintStart_toStartOf="@+id/inpAlamatcus"
+            app:layout_constraintTop_toBottomOf="@+id/inpAlamatcus" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName8"
+            android:id="@+id/inpAlamatcus"
             android:layout_width="330dp"
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
@@ -119,12 +120,12 @@
             android:hint="Alamat"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName7"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName7"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+            app:layout_constraintEnd_toEndOf="@+id/inpNamacus"
+            app:layout_constraintStart_toStartOf="@+id/inpNamacus"
+            app:layout_constraintTop_toBottomOf="@+id/inpNamacus" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/inpNamacus"
             android:layout_width="330dp"
             android:layout_height="50dp"
             android:layout_marginTop="40dp"
@@ -149,7 +150,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+            app:layout_constraintTop_toBottomOf="@+id/inpTglSelesai" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

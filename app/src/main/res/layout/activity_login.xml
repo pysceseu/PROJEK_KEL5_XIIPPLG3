@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="@+id/imageView7" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/inpUnmlogin"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginTop="50dp"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/inpPsswrdlogin"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
@@ -54,9 +54,9 @@
         android:hint="Password"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintEnd_toEndOf="@+id/inpUnmlogin"
+        app:layout_constraintStart_toStartOf="@+id/inpUnmlogin"
+        app:layout_constraintTop_toBottomOf="@+id/inpUnmlogin" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -70,15 +70,15 @@
         app:srcCompat="@drawable/_000180864_removebg_preview" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnlogin"
         android:layout_width="340dp"
         android:layout_height="55dp"
         android:layout_marginTop="50dp"
         android:backgroundTint="#479ECE"
         android:text="MASUK"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintEnd_toEndOf="@+id/inpPsswrdlogin"
+        app:layout_constraintStart_toStartOf="@+id/inpPsswrdlogin"
+        app:layout_constraintTop_toBottomOf="@+id/inpPsswrdlogin" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="150dp"

@@ -14,7 +14,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imgLeftBack"
+            android:id="@+id/imgLeftadpadm"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="20dp"
@@ -32,8 +32,8 @@
             android:text="My Laundry"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
-            app:layout_constraintBottom_toBottomOf="@+id/imgLeftBack"
-            app:layout_constraintStart_toEndOf="@+id/imgLeftBack" />
+            app:layout_constraintBottom_toBottomOf="@+id/imgLeftadpadm"
+            app:layout_constraintStart_toEndOf="@+id/imgLeftadpadm" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.cardview.widget.CardView

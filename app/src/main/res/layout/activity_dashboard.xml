@@ -59,7 +59,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:id="@+id/imageView21"
+                android:id="@+id/imgCustom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/admin_removebg_preview" />
@@ -80,7 +80,7 @@
             app:layout_constraintVertical_bias="1.0">
 
             <ImageView
-                android:id="@+id/imageView20"
+                android:id="@+id/imgAdmin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/admin_removebg_preview" />
@@ -121,7 +121,7 @@
                 android:textSize="30dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+                app:layout_constraintTop_toBottomOf="@+id/imgLeft" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -164,7 +164,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
             <ImageView
-                android:id="@+id/imageView11"
+                android:id="@+id/imgLeft"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="20dp"

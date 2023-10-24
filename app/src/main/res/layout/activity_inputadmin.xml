@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <EditText
-            android:id="@+id/editTextTextPersonName15"
+            android:id="@+id/inpNamacus"
             android:layout_width="330dp"
             android:layout_height="55dp"
             android:layout_marginTop="17dp"
@@ -29,13 +29,13 @@
             android:hint="Nama Customer"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintBottom_toTopOf="@+id/btnSimpanadmin"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+            app:layout_constraintTop_toBottomOf="@+id/inpNamaadmin" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/inpNamaadmin"
             android:layout_width="330dp"
             android:layout_height="55dp"
             android:layout_marginTop="70dp"
@@ -50,7 +50,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button3"
+            android:id="@+id/btnSimpanadmin"
             android:layout_width="221dp"
             android:layout_height="56dp"
             android:layout_marginStart="82dp"
@@ -61,7 +61,7 @@
             android:textColor="@color/white"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName15" />
+            app:layout_constraintTop_toBottomOf="@+id/inpNamacus" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -79,7 +79,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <ImageView
-            android:id="@+id/imageView15"
+            android:id="@+id/imgleftInpadm"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="20dp"
