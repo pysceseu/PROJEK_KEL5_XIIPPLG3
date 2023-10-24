@@ -49,29 +49,44 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
 
         <EditText
+            android:id="@+id/inpTgl"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/aa"
+            android:ems="10"
+            android:fontFamily="@font/jost_bold"
+            android:hint="Tanggal"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/inpHarga"
+            app:layout_constraintStart_toStartOf="@+id/inpHarga"
+            app:layout_constraintTop_toBottomOf="@+id/inpHarga" />
+
+        <EditText
             android:id="@+id/inpTglSelesai"
             android:layout_width="330dp"
             android:layout_height="50dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/aa"
             android:ems="10"
             android:fontFamily="@font/jost_bold"
             android:hint="Selesai"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/inpTgl"
-            app:layout_constraintStart_toStartOf="@+id/inpTgl"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inpTgl" />
 
         <EditText
-            android:id="@+id/inpTgl"
+            android:id="@+id/inpHarga"
             android:layout_width="330dp"
             android:layout_height="50dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/aa"
             android:ems="10"
             android:fontFamily="@font/jost_bold"
-            android:hint="Tanggal"
+            android:hint="Harga"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
             app:layout_constraintEnd_toEndOf="@+id/inpBerat"
@@ -82,7 +97,7 @@
             android:id="@+id/inpBerat"
             android:layout_width="330dp"
             android:layout_height="50dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/aa"
             android:ems="10"
             android:fontFamily="@font/jost_bold"
@@ -98,7 +113,7 @@
             android:id="@+id/inpKeterangan"
             android:layout_width="330dp"
             android:layout_height="50dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/aa"
             android:ems="10"
             android:fontFamily="@font/jost_bold"
@@ -113,7 +128,7 @@
             android:id="@+id/inpAlamatcus"
             android:layout_width="330dp"
             android:layout_height="50dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/aa"
             android:ems="10"
             android:fontFamily="@font/jost_bold"
@@ -139,18 +154,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button5"
-            android:layout_width="200dp"
-            android:layout_height="50dp"
-            android:background="@drawable/ii"
-            android:fontFamily="@font/jost_bold"
-            android:text="S I M P A N"
-            android:textColor="#FFFFFF"
+        <TextView
+            android:id="@+id/txtHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inpTglSelesai" />
+
+        <ImageView
+            android:id="@+id/imgKali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/inpHarga"
+            app:layout_constraintEnd_toEndOf="@+id/inpHarga"
+            app:layout_constraintTop_toTopOf="@+id/inpHarga"
+            app:srcCompat="@drawable/ic_baseline_check_24" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -173,5 +196,18 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/admin_removebg_preview" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ii"
+        android:fontFamily="@font/jost_bold"
+        android:text="S I M P A N"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
