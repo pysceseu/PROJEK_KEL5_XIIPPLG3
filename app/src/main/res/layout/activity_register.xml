@@ -12,7 +12,7 @@
         android:layout_height="55dp"
         android:layout_marginTop="50dp"
         android:backgroundTint="#479ECE"
-        android:text="sign up"
+        android:text="SIMPAN"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"

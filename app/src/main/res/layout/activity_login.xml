@@ -74,8 +74,8 @@
         android:layout_width="340dp"
         android:layout_height="55dp"
         android:layout_marginTop="50dp"
-        android:text="LOGIN"
         android:backgroundTint="#479ECE"
+        android:text="MASUK"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
