@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [customer::class], version = 1)
+@Database(entities = [customer::class, admin::class], version = 2)
 
 abstract class database : RoomDatabase() {
     abstract fun DAOCustomer() : DAOCustomer
@@ -18,7 +18,7 @@ abstract class database : RoomDatabase() {
         @Synchronized
         fun getInstances(context: Context): database {
             if (Instances == null) {
-                Instances = Room.databaseBuilder(context,database::class.java, "My Laudry")
+                Instances = Room.databaseBuilder(context,database::class.java, "My Laundry")
                     .fallbackToDestructiveMigration()
                     .allowMainThreadQueries()
                     .build()

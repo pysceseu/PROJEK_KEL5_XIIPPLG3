@@ -4,15 +4,27 @@ import androidx.room.*
 
 @Dao
 interface DAOCustomer {
+    //Customer
     @Insert
-    fun Insertdatacustomer(customer: customer)
-
+    fun Insertdatacustomer(vararg customer: customer)
     @Update
-    fun Updatedatacustomer(customer: customer)
-
+    fun Updatedatacustomer(vararg customer: customer)
     @Delete
-    fun Deletedatacustomer(customer: customer)
-
+    fun Deletedatacustomer(vararg customer: customer)
     @Query("SELECT * FROM tbCustomer")
     fun getdatacustomer() : List<customer>
+    @Query("SELECT * FROM tbCustomer WHERE id_customer=:idCust")
+    fun getDataIdCustomer(idCust: Int) : List<customer>
+
+    //Admin
+    @Insert
+    fun Insertdataadmin(vararg admin: admin)
+    @Update
+    fun Updatedataadmin(vararg admin: admin)
+    @Delete
+    fun Deletedataadmin(vararg admin: admin)
+    @Query("SELECT * FROM tbAdmin")
+    fun getdataadmin() : List<admin>
+
+
 }
