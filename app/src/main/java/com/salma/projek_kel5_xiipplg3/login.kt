@@ -25,7 +25,7 @@ class login : AppCompatActivity() {
             if (username.text.isNotEmpty() && password.text.isNotEmpty()) {
                 if (password.text.length >= 8) {
                     startActivity(
-                        Intent(this, ActivityDashboardBinding::class.java)
+                        Intent(this, dashboard::class.java)
                             .putExtra("username", username.text.toString())
                     )
                     finish()
