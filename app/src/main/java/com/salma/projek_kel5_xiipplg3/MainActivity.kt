@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         android.os.Handler().postDelayed(
             {
                 startActivity(
-                    Intent(this,login::class.java))
+                    Intent(this,dashboard2::class.java))
                 finish()
             },2000
         )
