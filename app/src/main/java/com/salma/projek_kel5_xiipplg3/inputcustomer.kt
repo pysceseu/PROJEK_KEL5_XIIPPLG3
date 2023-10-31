@@ -17,7 +17,7 @@ class inputcustomer : AppCompatActivity() {
         setContentView(R.layout.activity_inputcustomer)
         binding=ActivityInputcustomerBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+//tggr
         Database = database.getInstances(applicationContext)
         binding.button5.setOnClickListener {
             if (binding.inpNamacus.text.isNotEmpty() &&
