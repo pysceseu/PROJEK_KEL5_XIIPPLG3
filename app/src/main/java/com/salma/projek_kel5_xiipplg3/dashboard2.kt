@@ -15,11 +15,11 @@ class dashboard2 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.imggoogle.setOnClickListener {
-            startActivity(Intent(this, ActivityLoginBinding::class.java))
+            startActivity(Intent(this, login::class.java))
         }
 
         binding.imgregister.setOnClickListener {
-            startActivity(Intent(this, ActivityRegisterBinding::class.java))
+            startActivity(Intent(this, register::class.java))
         }
     }
 
