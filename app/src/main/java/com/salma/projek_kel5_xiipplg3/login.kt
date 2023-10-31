@@ -10,33 +10,31 @@ import com.salma.projek_kel5_xiipplg3.databinding.ActivityLoginBinding
 import com.salma.projek_kel5_xiipplg3.databinding.ActivityRegisterBinding
 
 class login : AppCompatActivity() {
-    private lateinit var find: ActivityLoginBinding
+    private lateinit var binding: ActivityLoginBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        find = ActivityLoginBinding.inflate(layoutInflater)
-        setContentView(find.root)
+        binding = ActivityLoginBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val username = find.inpUnmlogin
-        val password = find.inpPsswrdlogin
-        val mimnimalpw = find.inpPsswrdlogin.text.split("\\s+".toRegex())
+        val username = binding.inpUnmlogin
+        val password = binding.inpPsswrdlogin
 
-
-        find.btnlogin.setOnClickListener {
+        binding.btnlogin.setOnClickListener {
 
             if (username.text.isNotEmpty() && password.text.isNotEmpty()) {
                 if (password.text.length >= 8) {
                     startActivity(
-                        Intent(this, ActivityDashboard2Binding::class.java)
+                        Intent(this, ActivityDashboardBinding::class.java)
                             .putExtra("username", username.text.toString())
                     )
                     finish()
-                    alert("Selamat datang di Go-Rent ${username.text}")
+                    alert("Selamat datang di My Laundry ${username.text}")
                     finish()
 
 
                 }else {
-                    alert("Pasword minimal 8 huruf")
+                    alert("Password minimal 8 huruf")
                 }
 
             }else {
