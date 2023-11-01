@@ -61,12 +61,16 @@
         <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/drawable/bb.xml" value="0.1235" />
         <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
         <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_dashboard2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_edit_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_inputadmin.xml" value="0.20416666666666666" />
         <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_inputcustomer.xml" value="0.18611111111111112" />
         <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
         <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_tampiladmin.xml" value="0.20416666666666666" />
         <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_tampilcustomer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/adapteradmin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Uma Hayu/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/adaptercust.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

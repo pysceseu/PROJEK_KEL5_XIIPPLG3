@@ -30,7 +30,7 @@ class inputcustomer : AppCompatActivity() {
             ){
                 Database.DAOCustomer().Insertdatacustomer(
                     customer( 0,
-                        binding.button5.text.toString(),
+                        binding.inpNamacus.text.toString(),
                         binding.inpAlamatcus.text.toString(),
                         binding.inpKeterangan.text.toString(),
                         binding.inpBerat.text.toString(),
@@ -49,7 +49,7 @@ class inputcustomer : AppCompatActivity() {
                 binding.inpTglSelesai.setText("")
 
                 startActivity(
-                    Intent(this, MainActivity::class.java)
+                    Intent(this, tampilcustomer::class.java)
                 )
             }
         }
