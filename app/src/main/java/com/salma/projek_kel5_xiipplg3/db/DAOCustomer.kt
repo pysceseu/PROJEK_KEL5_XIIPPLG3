@@ -25,6 +25,8 @@ interface DAOCustomer {
     fun Deletedataadmin(vararg admin: admin)
     @Query("SELECT * FROM tbAdmin")
     fun getdataadmin() : List<admin>
+    @Query("SELECT * FROM tbAdmin WHERE id_customer=:idAdm")
+    fun getDataIdAdmin(idAdm: Int) : List<admin>
 
 
 }

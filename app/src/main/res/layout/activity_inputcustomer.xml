@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imgLeftinpcus"
+            android:id="@+id/leftInpCus"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="20dp"
@@ -34,8 +34,8 @@
             android:text="Input data customer"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
-            app:layout_constraintBottom_toBottomOf="@+id/imgLeftinpcus"
-            app:layout_constraintStart_toEndOf="@+id/imgLeftinpcus" />
+            app:layout_constraintBottom_toBottomOf="@+id/leftInpCus"
+            app:layout_constraintStart_toEndOf="@+id/leftInpCus" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -198,7 +198,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button5"
+        android:id="@+id/btnedtcust"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:background="@drawable/ii"

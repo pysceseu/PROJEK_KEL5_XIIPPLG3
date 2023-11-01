@@ -198,7 +198,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button5"
+        android:id="@+id/btnedtcust"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:background="@drawable/ii"

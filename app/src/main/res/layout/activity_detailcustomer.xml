@@ -6,207 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".detailcustomer">
 
-    <EditText
-        android:id="@+id/inpIdDetail"
-        android:layout_width="238dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:fontFamily="@font/jost"
-        android:hint="Id"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
-
-    <EditText
-        android:id="@+id/inpNamaDetail"
-        android:layout_width="238dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:fontFamily="@font/jost"
-        android:hint="Nama"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpIdDetail" />
-
-    <EditText
-        android:id="@+id/inpAlmDetail"
-        android:layout_width="238dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:fontFamily="@font/jost"
-        android:hint="Alamat"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpNamaDetail" />
-
-    <EditText
-        android:id="@+id/inpKetDetail"
-        android:layout_width="238dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:hint="Keterangan"
-        android:fontFamily="@font/jost"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpAlmDetail" />
-
-    <EditText
-        android:id="@+id/inpBeratDetail"
-        android:layout_width="238dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:hint="Berat"
-        android:fontFamily="@font/jost"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpKetDetail" />
-
-    <EditText
-        android:id="@+id/inpTglDetail"
-        android:layout_width="238dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:hint="Tanggal"
-        android:fontFamily="@font/jost"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpBeratDetail" />
-
-    <EditText
-        android:id="@+id/inpTglSelesaiDetail"
-        android:layout_width="238dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:hint="Selesai"
-        android:fontFamily="@font/jost"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpTglDetail" />
-
-    <EditText
-        android:id="@+id/inpTotalDetail"
-        android:layout_width="238dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:fontFamily="@font/jost"
-        android:hint="Total"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpTglSelesaiDetail" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="27dp"
-        android:fontFamily="@font/jost_bold"
-        android:text="Id               :"
-        android:textColor="@color/black"
-        android:textSize="22dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:fontFamily="@font/jost_bold"
-        android:text="Nama         :"
-        android:textColor="@color/black"
-        android:textSize="22dp"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:fontFamily="@font/jost_bold"
-        android:text="Alamat       :"
-        android:textColor="@color/black"
-        android:textSize="22dp"
-        app:layout_constraintStart_toStartOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:fontFamily="@font/jost_bold"
-        android:text="Keterangan:"
-        android:textColor="@color/black"
-        android:textSize="22dp"
-        app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:fontFamily="@font/jost_bold"
-        android:text="Berat          :"
-        android:textColor="@color/black"
-        android:textSize="22dp"
-        app:layout_constraintStart_toStartOf="@+id/textView10"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:fontFamily="@font/jost_bold"
-        android:text="Tanggal      :"
-        android:textColor="@color/black"
-        android:textSize="22dp"
-        app:layout_constraintStart_toStartOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:fontFamily="@font/jost_bold"
-        android:text="Selesai       :"
-        android:textColor="@color/black"
-        android:textSize="22dp"
-        app:layout_constraintStart_toStartOf="@+id/textView12"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:fontFamily="@font/jost_bold"
-        android:text="Total           :"
-        android:textColor="@color/black"
-        android:textSize="22dp"
-        app:layout_constraintStart_toStartOf="@+id/textView13"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
@@ -217,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imgLeftDetail"
+            android:id="@+id/leftInpCus"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="20dp"
@@ -235,8 +34,280 @@
             android:text="Detail data customer"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
-            app:layout_constraintBottom_toBottomOf="@+id/imgLeftDetail"
-            app:layout_constraintStart_toEndOf="@+id/imgLeftDetail" />
+            app:layout_constraintBottom_toBottomOf="@+id/leftInpCus"
+            app:layout_constraintStart_toEndOf="@+id/leftInpCus" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost_bold"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:text="Id" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost_bold"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Nama" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost_bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:text="Alamat" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost_bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:text="Keterangan" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost_bold"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Berat" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost_bold"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Tanggal" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost_bold"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Status" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost_bold"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Total" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="9dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:fontFamily="@font/jost_bold"
+                android:textColor="@color/black"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:textColor="@color/black"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:textColor="@color/black"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:textColor="@color/black"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:textColor="@color/black"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:textColor="@color/black"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:textColor="@color/black"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:textColor="@color/black"
+                android:text=":" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/inpIdDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:text="Id" />
+
+            <TextView
+                android:id="@+id/inpNamaDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Nama" />
+
+            <TextView
+                android:id="@+id/inpAlmDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:text="Alamat" />
+
+            <TextView
+                android:id="@+id/inpKetDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:text="Keterangan" />
+
+            <TextView
+                android:id="@+id/inpBeratDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Berat" />
+
+            <TextView
+                android:id="@+id/inpTglDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Tanggal" />
+
+            <TextView
+                android:id="@+id/inpTglSelesaiDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Status" />
+
+            <TextView
+                android:id="@+id/inpTotalDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost"
+                android:textSize="22dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Total" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

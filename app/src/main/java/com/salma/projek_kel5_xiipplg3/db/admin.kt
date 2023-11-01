@@ -6,7 +6,9 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "tbAdmin")
 data class admin(
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "id_customer")
+    val id: Int,
     @ColumnInfo(name = "nama_admin")
     val namaAdmin: String,
     @ColumnInfo(name = "nama_customer")

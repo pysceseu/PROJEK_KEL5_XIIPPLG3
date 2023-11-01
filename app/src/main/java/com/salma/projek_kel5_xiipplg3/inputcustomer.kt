@@ -19,7 +19,10 @@ class inputcustomer : AppCompatActivity() {
         setContentView(binding.root)
 
         Database = database.getInstances(applicationContext)
-        binding.button5.setOnClickListener {
+        binding.leftInpCus.setOnClickListener {
+            startActivity(Intent(this, dashboard::class.java))
+        }
+        binding.btnedtcust.setOnClickListener {
             if (binding.inpNamacus.text.isNotEmpty() &&
                 binding.inpAlamatcus.text.isNotEmpty()&&
                 binding.inpKeterangan.text.isNotEmpty()&&

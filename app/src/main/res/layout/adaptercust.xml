@@ -3,39 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:background="#479ECE"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/imgLeftadpadm"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:fontFamily="@font/lilita_one"
-            android:text="My Laundry"
-            android:textColor="#FFFFFF"
-            android:textSize="30dp"
-            app:layout_constraintBottom_toBottomOf="@+id/imgLeftadpadm"
-            app:layout_constraintStart_toEndOf="@+id/imgLeftadpadm" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         android:layout_width="357dp"
@@ -43,12 +11,12 @@
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/aa">
+            android:background="@drawable/zz">
 
             <TextView
                 android:id="@+id/textView5"
@@ -96,7 +64,7 @@
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/jost"
                 android:text="LIHAT DETAIL"
-                android:textColor="#2791CB"
+                android:textColor="#448AFF"
                 android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
