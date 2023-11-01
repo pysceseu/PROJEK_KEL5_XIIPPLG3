@@ -1,6 +1,5 @@
 package com.salma.projek_kel5_xiipplg3
 
-import android.content.DialogInterface
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,7 +11,7 @@ import com.salma.projek_kel5_xiipplg3.db.admin
 class adapterAdmin (val list: ArrayList<admin>, var listener: OnClickListener)
     : RecyclerView.Adapter<adapterAdmin.ViewHolder>() {
         class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-            val idAdm = itemView.findViewById<TextView>(R.id.txtIdAdmAdp)
+            val namaCus = itemView.findViewById<TextView>(R.id.txtIdAdmAdp)
             val namaAdm = itemView.findViewById<TextView>(R.id.txtNmAdmAdp)
             val hapusAdm = itemView.findViewById<ImageView>(R.id.imgHps)
             val editAdm = itemView.findViewById<ImageView>(R.id.imgEdit)
@@ -26,7 +25,7 @@ class adapterAdmin (val list: ArrayList<admin>, var listener: OnClickListener)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.idAdm.text = list[position].toString()
+        holder.namaCus.text = list[position].namaCustomer
         holder.namaAdm.text = list[position].namaAdmin
 
         holder.hapusAdm.setOnClickListener {
@@ -39,7 +38,6 @@ class adapterAdmin (val list: ArrayList<admin>, var listener: OnClickListener)
     fun setData(newList: List<admin>) {
         list.clear()
         list.addAll(newList)
-        notifyDataSetChanged()
     }
 
     override fun getItemCount(): Int {
