@@ -7,8 +7,10 @@
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/drawable/pp.xml" value="0.1625" />
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_adapter.xml" value="0.20416666666666666" />
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_dashboard2.xml" value="0.1" />
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_detailcustomer.xml" value="0.25" />
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_edit_admin.xml" value="0.22" />
+        <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_editcustomer.xml" value="0.20416666666666666" />
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_inputadmin.xml" value="0.22" />
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_inputcustomer.xml" value="0.25" />
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_login.xml" value="0.25" />
@@ -17,6 +19,8 @@
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_registrasi.xml" value="0.25" />
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_tampiladmin.xml" value="0.25" />
         <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/activity_tampilcustomer.xml" value="0.25" />
+        <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/adapteradmin.xml" value="0.25" />
+        <entry key="..\:/Elfa/projek kelompok/app/src/main/res/layout/adaptercust.xml" value="0.20416666666666666" />
         <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_dashboard.xml" value="0.18" />
         <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_dashboard2.xml" value="0.25" />
         <entry key="..\:/PROJEK_KEL5_XIIPPLG3/app/src/main/res/layout/activity_edit_admin.xml" value="0.20416666666666666" />
