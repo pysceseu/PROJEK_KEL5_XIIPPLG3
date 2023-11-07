@@ -51,7 +51,7 @@ class adapterCust (val list: ArrayList<customer>, var listener: OnClickListener)
     fun setData(newList: List<customer>){
         list.clear()
         list.addAll(newList)
-        notifyDataSetChanged()
+
     }
 
     interface OnClickListener{

@@ -17,11 +17,11 @@ class dashboard : AppCompatActivity() {
         }
 
         binding.imgCustom.setOnClickListener {
-            startActivity(Intent(this, inputcustomer::class.java))
+            startActivity(Intent(this, tampilcustomer::class.java))
         }
 
         binding.imgAdmin.setOnClickListener {
-            startActivity(Intent(this, inputadmin::class.java))
+            startActivity(Intent(this, tampiladmin::class.java))
         }
     }
 }

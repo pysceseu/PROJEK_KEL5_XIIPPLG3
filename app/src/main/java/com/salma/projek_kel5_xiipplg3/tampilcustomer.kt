@@ -43,6 +43,8 @@ class tampilcustomer : AppCompatActivity() {
         binding.imgaddcus.setOnClickListener {
             startActivity(Intent(this, inputcustomer::class.java))
         }
+
+
     }
 
     private fun hapusdataCus(customer: customer){

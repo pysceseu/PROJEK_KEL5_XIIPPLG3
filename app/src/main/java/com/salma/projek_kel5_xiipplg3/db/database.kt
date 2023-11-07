@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [customer::class, admin::class], version = 2)
+@Database(entities = [customer::class, admin::class], version =3 )
 
 abstract class database : RoomDatabase() {
     abstract fun DAOCustomer() : DAOCustomer
