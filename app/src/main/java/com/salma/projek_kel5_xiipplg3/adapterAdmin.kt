@@ -39,7 +39,7 @@ class adapterAdmin (val list: ArrayList<admin>, var listener: OnClickListener)
     fun setData(newList: List<admin>) {
         list.clear()
         list.addAll(newList)
-        notifyDataSetChanged()
+
     }
 
     override fun getItemCount(): Int {

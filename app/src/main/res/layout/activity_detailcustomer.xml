@@ -109,31 +109,31 @@
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost_bold"
-                android:textSize="22dp"
                 android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:text="Harga"
                 android:textColor="@color/black"
-                android:text="Tanggal" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost_bold"
-                android:textSize="22dp"
                 android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:text="Tanggal"
                 android:textColor="@color/black"
-                android:text="Status" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost_bold"
-                android:textSize="22dp"
                 android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:text="Selesai"
                 android:textColor="@color/black"
-                android:text="Total" />
+                android:textSize="22dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -228,83 +228,67 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/inpIdDetail"
+                android:id="@+id/txtid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost"
-                android:textSize="22dp"
-                android:textColor="@color/black"
-                android:text="Id" />
+                android:text="TextView"
+                android:textSize="22dp" />
 
             <TextView
-                android:id="@+id/inpNamaDetail"
+                android:id="@+id/txtnama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost"
-                android:textSize="22dp"
-                android:layout_marginTop="15dp"
-                android:textColor="@color/black"
-                android:text="Nama" />
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textSize="22dp" />
 
             <TextView
-                android:id="@+id/inpAlmDetail"
+                android:id="@+id/txtalamat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost"
-                android:layout_marginTop="15dp"
-                android:textColor="@color/black"
-                android:textSize="22dp"
-                android:text="Alamat" />
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textSize="22dp" />
 
             <TextView
-                android:id="@+id/inpKetDetail"
+                android:id="@+id/txtketerangan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost"
-                android:layout_marginTop="15dp"
-                android:textColor="@color/black"
-                android:textSize="22dp"
-                android:text="Keterangan" />
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textSize="22dp" />
 
             <TextView
-                android:id="@+id/inpBeratDetail"
+                android:id="@+id/txtberat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost"
-                android:textSize="22dp"
-                android:layout_marginTop="15dp"
-                android:textColor="@color/black"
-                android:text="Berat" />
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textSize="22dp" />
 
             <TextView
-                android:id="@+id/inpTglDetail"
+                android:id="@+id/txtharga"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost"
-                android:textSize="22dp"
-                android:layout_marginTop="15dp"
-                android:textColor="@color/black"
-                android:text="Tanggal" />
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textSize="22dp" />
 
             <TextView
-                android:id="@+id/inpTglSelesaiDetail"
+                android:id="@+id/txttanggal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost"
-                android:textSize="22dp"
-                android:layout_marginTop="15dp"
-                android:textColor="@color/black"
-                android:text="Status" />
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textSize="22dp" />
 
             <TextView
-                android:id="@+id/inpTotalDetail"
+                android:id="@+id/txtselesai"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost"
-                android:textSize="22dp"
-                android:layout_marginTop="15dp"
-                android:textColor="@color/black"
-                android:text="Total" />
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textSize="22dp" />
 
         </LinearLayout>
 

@@ -19,8 +19,8 @@
 
         <ImageView
             android:id="@+id/imageView10"
-            android:layout_width="220dp"
-            android:layout_height="220dp"
+            android:layout_width="176dp"
+            android:layout_height="169dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.445"
@@ -41,9 +41,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listdataAdm"
-        android:layout_width="409dp"
-        android:layout_height="524dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="404dp"
+        android:layout_height="540dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
