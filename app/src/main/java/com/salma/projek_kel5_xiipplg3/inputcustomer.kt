@@ -31,7 +31,7 @@ class inputcustomer : AppCompatActivity() {
         berat = findViewById(R.id.inpBerat)
         harga = findViewById(R.id.inpHarga)
         hasil = findViewById(R.id.txtHasil)
-        kali.setOnClickListener { kali() }
+
     }
     fun kali() {
         val hitung = berat.text.toString().toDouble() * harga.text.toString().toDouble()

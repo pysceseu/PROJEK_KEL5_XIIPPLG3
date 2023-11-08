@@ -18,17 +18,18 @@ class editcustomer : AppCompatActivity() {
         binding = ActivityEditcustomerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val id = intent.getStringExtra("idcustomer").toString().toInt()
+        val id = intent.getStringExtra("idCustomer").toString().toInt()
         val data = db.DAOCustomer().getDataIdCustomer(id)
 
         binding.inpNamaEdCust.setText(data[0].nama)
         binding.inpAlmEdCust.setText(data[0].alamat)
         binding.inpKetEdCust.setText(data[0].keterangan)
         binding.inpBeratEdCust.setText(data[0].berat)
-        binding.inpHrgaEdCust.setText(data[0].harga)
+        binding.inpHrgaEdCust.setText(data[0].harga.toString())
         binding.inpTglEdCust.setText(data[0].tanggal)
         binding.inpTglSelesiEdCust.setText(data[0].selesai)
         binding.btnedtcust.setOnClickListener {
+
             if (binding.inpNamaEdCust.text.isNotEmpty()&&
                 binding.inpAlmEdCust.text.isNotEmpty()&&
                 binding.inpKetEdCust.text.isNotEmpty()&&

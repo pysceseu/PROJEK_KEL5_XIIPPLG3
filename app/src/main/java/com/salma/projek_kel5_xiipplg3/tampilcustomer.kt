@@ -73,7 +73,7 @@ class tampilcustomer : AppCompatActivity() {
 
     private fun editdataCus(customer: customer){
         startActivity(Intent(this, editcustomer::class.java)
-            .putExtra("id pesan", customer.id.toString()))
+            .putExtra("idCustomer", customer.id.toString()))
     }
 
     override fun onResume() {
