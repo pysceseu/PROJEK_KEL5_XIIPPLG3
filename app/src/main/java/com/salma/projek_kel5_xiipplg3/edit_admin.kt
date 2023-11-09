@@ -19,7 +19,7 @@ class edit_admin : AppCompatActivity() {
         binding = ActivityEditAdminBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val id = intent.getStringExtra("idadmin").toString().toInt()
+        val id = intent.getStringExtra("idadmin").toString().toInt() //menerima id
         val data = db.DAOCustomer().getDataIdAdmin(id)
 
         binding.inpNamaadmin.setText(data[0].namaAdmin)
