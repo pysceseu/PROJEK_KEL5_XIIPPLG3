@@ -13,8 +13,6 @@ data class customer(
     val nama: String,
     @ColumnInfo(name = "alamat_customer")
     val alamat: String,
-    @ColumnInfo(name = "keterangan")
-    val keterangan: String,
     @ColumnInfo(name = "berat")
     val berat: String,
     @ColumnInfo(name = "harga")

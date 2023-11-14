@@ -59,9 +59,9 @@
             android:hint="Tanggal"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/inpHarga"
-            app:layout_constraintStart_toStartOf="@+id/inpHarga"
-            app:layout_constraintTop_toBottomOf="@+id/inpHarga" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inpHargaa" />
 
         <EditText
             android:id="@+id/inpTglSelesai"
@@ -79,7 +79,7 @@
             app:layout_constraintTop_toBottomOf="@+id/inpTgl" />
 
         <EditText
-            android:id="@+id/inpHarga"
+            android:id="@+id/inpHargaa"
             android:layout_width="330dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
@@ -89,12 +89,13 @@
             android:hint="Harga"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/inpBerat"
-            app:layout_constraintStart_toStartOf="@+id/inpBerat"
-            app:layout_constraintTop_toBottomOf="@+id/inpBerat" />
+            app:layout_constraintEnd_toEndOf="@+id/inpBeratt"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/inpBeratt"
+            app:layout_constraintTop_toBottomOf="@+id/inpBeratt" />
 
         <EditText
-            android:id="@+id/inpBerat"
+            android:id="@+id/inpBeratt"
             android:layout_width="330dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
@@ -102,22 +103,6 @@
             android:ems="10"
             android:fontFamily="@font/jost_bold"
             android:hint="Berat"
-            android:inputType="textPersonName"
-            android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/inpKeterangan"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/inpKeterangan"
-            app:layout_constraintTop_toBottomOf="@+id/inpKeterangan" />
-
-        <EditText
-            android:id="@+id/inpKeterangan"
-            android:layout_width="330dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/aa"
-            android:ems="10"
-            android:fontFamily="@font/jost_bold"
-            android:hint="Keterangan"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
             app:layout_constraintEnd_toEndOf="@+id/inpAlamatcus"
@@ -154,26 +139,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/txtHasil"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:textSize="24sp"
+        <ImageView
+            android:id="@+id/imgKali"
+            android:layout_width="52dp"
+            android:layout_height="36dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inpTglSelesai" />
+            app:layout_constraintTop_toBottomOf="@+id/inpTglSelesai"
+            app:srcCompat="@drawable/ic_baseline_check_24" />
 
-        <ImageView
-            android:id="@+id/imgKali"
+        <TextView
+            android:id="@+id/HasilInp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/inpHarga"
-            app:layout_constraintEnd_toEndOf="@+id/inpHarga"
-            app:layout_constraintTop_toTopOf="@+id/inpHarga"
-            app:srcCompat="@drawable/ic_baseline_check_24" />
+            android:layout_marginStart="70dp"
+            android:text="0"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inpTglSelesai" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -39,7 +39,7 @@ class adapterCust (val list: ArrayList<customer>, var listener: OnClickListener)
         }
         holder.detail.setOnClickListener {
             val context = holder.itemView.context
-            val intent = Intent(context, detailcustomer::class.java).putExtra("idCustomer", list[position].id.toString())
+            val intent = Intent(context, detailcustomer::class.java).putExtra("idcustomer", list[position].id.toString())
             context.startActivity(intent)
         }
     }

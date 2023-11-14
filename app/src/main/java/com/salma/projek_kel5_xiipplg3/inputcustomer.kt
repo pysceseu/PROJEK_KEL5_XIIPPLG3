@@ -8,7 +8,6 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 import com.salma.projek_kel5_xiipplg3.databinding.ActivityInputcustomerBinding
-import com.salma.projek_kel5_xiipplg3.db.admin
 import com.salma.projek_kel5_xiipplg3.db.customer
 import com.salma.projek_kel5_xiipplg3.db.database
 import java.text.SimpleDateFormat
@@ -19,8 +18,9 @@ class inputcustomer : AppCompatActivity() {
     private lateinit var Database: database
     private lateinit var berat: EditText
     private lateinit var harga: EditText
-    private lateinit var kali: ImageView
     private lateinit var hasil: TextView
+    private lateinit var kali: ImageView
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,14 +28,15 @@ class inputcustomer : AppCompatActivity() {
         binding = ActivityInputcustomerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        berat = findViewById(R.id.inpBerat)
-        harga = findViewById(R.id.inpHarga)
-        hasil = findViewById(R.id.txtHasil)
+        berat = findViewById(R.id.inpBeratt)
+        harga = findViewById(R.id.inpHargaa)
+        hasil = findViewById(R.id.HasilInp)
+        kali = findViewById(R.id.imgKali)
 
-    }
-    fun kali() {
-        val hitung = berat.text.toString().toDouble() * harga.text.toString().toDouble()
-        hasil.text = hitung.toString()
+        binding.imgKali.setOnClickListener {
+            val hitung = berat.text.toString().toDouble() * harga.text.toString().toDouble()
+            hasil.text = hitung.toString()
+        }
 
         Database = database.getInstances(applicationContext)
         binding.leftInpCus.setOnClickListener {
@@ -44,9 +45,8 @@ class inputcustomer : AppCompatActivity() {
         binding.btninpcust.setOnClickListener {
             if (binding.inpNamacus.text.isNotEmpty() &&
                 binding.inpAlamatcus.text.isNotEmpty() &&
-                binding.inpKeterangan.text.isNotEmpty() &&
-                binding.inpBerat.text.isNotEmpty() &&
-                binding.inpHarga.text.isNotEmpty() &&
+                binding.inpBeratt.text.isNotEmpty() &&
+                binding.inpHargaa.text.isNotEmpty() &&
                 binding.inpTgl.text.isNotEmpty() &&
                 binding.inpTglSelesai.text.isNotEmpty()
             ) {
@@ -55,9 +55,8 @@ class inputcustomer : AppCompatActivity() {
                         0,
                         binding.inpNamacus.text.toString(),
                         binding.inpAlamatcus.text.toString(),
-                        binding.inpKeterangan.text.toString(),
-                        binding.inpBerat.text.toString(),
-                        binding.inpHarga.text.toString().toInt(),
+                        binding.inpBeratt.text.toString(),
+                        binding.inpHargaa.text.toString().toInt(),
                         binding.inpTgl.text.toString(),
                         binding.inpTglSelesai.text.toString()
                     )
@@ -65,9 +64,8 @@ class inputcustomer : AppCompatActivity() {
 
                 binding.inpNamacus.setText("")
                 binding.inpAlamatcus.setText("")
-                binding.inpKeterangan.setText("")
-                binding.inpBerat.setText("")
-                binding.inpHarga.setText("")
+                binding.inpBeratt.setText("")
+                binding.inpHargaa.setText("")
                 binding.inpTgl.setText("")
                 binding.inpTglSelesai.setText("")
 

@@ -12,7 +12,7 @@ interface DAOCustomer {
     @Delete
     fun Deletedatacustomer(vararg customer: customer)
     @Query("SELECT * FROM tbCustomer")
-    fun getdatacustomer() : List<customer>
+    fun getdatacustomer(): List<customer>
     @Query("SELECT * FROM tbCustomer WHERE id_customer=:idCust")
     fun getDataIdCustomer(idCust: Int) : List<customer>
 

@@ -3,7 +3,6 @@ package com.salma.projek_kel5_xiipplg3
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.widget.Toast
 import com.salma.projek_kel5_xiipplg3.databinding.ActivityEditcustomerBinding
 import com.salma.projek_kel5_xiipplg3.db.customer
@@ -23,9 +22,7 @@ class editcustomer : AppCompatActivity() {
 
         binding.inpNamaEdCust.setText(data[0].nama)
         binding.inpAlmEdCust.setText(data[0].alamat)
-        binding.inpKetEdCust.setText(data[0].keterangan)
         binding.inpBeratEdCust.setText(data[0].berat)
-        binding.inpHrgaEdCust.setText(data[0].harga.toString())
         binding.inpTglEdCust.setText(data[0].tanggal)
         binding.inpTglSelesiEdCust.setText(data[0].selesai)
 
@@ -33,7 +30,6 @@ class editcustomer : AppCompatActivity() {
 
             if (binding.inpNamaEdCust.text.isNotEmpty()&&
                 binding.inpAlmEdCust.text.isNotEmpty()&&
-                binding.inpKetEdCust.text.isNotEmpty()&&
                 binding.inpBeratEdCust.text.isNotEmpty()&&
                 binding.inpHrgaEdCust.text.isNotEmpty()&&
                 binding.inpTglEdCust.text.isNotEmpty()&&
@@ -43,7 +39,6 @@ class editcustomer : AppCompatActivity() {
                     id,
                     binding.inpNamaEdCust.text.toString(),
                     binding.inpAlmEdCust.text.toString(),
-                    binding.inpKetEdCust.text.toString(),
                     binding.inpBeratEdCust.text.toString(),
                     binding.inpHrgaEdCust.text.toString().toInt(),
                     binding.inpTglEdCust.text.toString(),

@@ -71,7 +71,7 @@ class tampiladmin : AppCompatActivity() {
 
     private fun editdataAdm(admin: admin){
         startActivity(Intent(this, edit_admin::class.java)
-            .putExtra("idadmin", admin.id.toString()))// mengirim id
+            .putExtra("idadmin", admin.namaAdmin))
     }
 
     override fun onResume() {

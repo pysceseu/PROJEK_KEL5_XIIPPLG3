@@ -104,21 +104,6 @@
             android:hint="Berat"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/inpKetEdCust"
-            app:layout_constraintStart_toStartOf="@+id/inpKetEdCust"
-            app:layout_constraintTop_toBottomOf="@+id/inpKetEdCust" />
-
-        <EditText
-            android:id="@+id/inpKetEdCust"
-            android:layout_width="330dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/aa"
-            android:ems="10"
-            android:fontFamily="@font/jost_bold"
-            android:hint="Keterangan"
-            android:inputType="textPersonName"
-            android:paddingLeft="20dp"
             app:layout_constraintEnd_toEndOf="@+id/inpAlmEdCust"
             app:layout_constraintStart_toStartOf="@+id/inpAlmEdCust"
             app:layout_constraintTop_toBottomOf="@+id/inpAlmEdCust" />
@@ -156,22 +141,22 @@
 
         <ImageView
             android:id="@+id/imgKaliEdCust"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/inpHrgaEdCust"
-            app:layout_constraintEnd_toEndOf="@+id/inpHrgaEdCust"
-            app:layout_constraintTop_toTopOf="@+id/inpHrgaEdCust"
+            android:layout_width="52dp"
+            android:layout_height="36dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inpTglSelesiEdCust"
             app:srcCompat="@drawable/ic_baseline_check_24" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
             android:text="0"
-            android:textSize="24sp"
+            android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/inpTglSelesiEdCust"
             app:layout_constraintStart_toStartOf="@+id/inpTglSelesiEdCust"
             app:layout_constraintTop_toBottomOf="@+id/inpTglSelesiEdCust" />
 
