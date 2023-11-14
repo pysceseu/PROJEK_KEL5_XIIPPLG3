@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout5"
         android:layout_width="match_parent"
-        android:layout_height="170dp"
+        android:layout_height="130dp"
         android:background="@drawable/ff"
         android:elevation="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,10 +33,12 @@
         android:id="@+id/listdataAdm"
         android:layout_width="404dp"
         android:layout_height="540dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
+        tools:listitem="@layout/adapteradmin" />
 
 
     <ImageView

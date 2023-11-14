@@ -16,7 +16,7 @@ class adapterCust (val list: ArrayList<customer>, var listener: OnClickListener)
         class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
             val id = itemView.findViewById<TextView>(R.id.txtIdCustAdp)
             val nama = itemView.findViewById<TextView>(R.id.txtNmCustAdp)
-            val edit = itemView.findViewById<ImageView>(R.id.imgEditcus)
+            val edit = itemView.findViewById<ImageView>(R.id.imgEditcust)
             val hapus = itemView.findViewById<ImageView>(R.id.imgHpscus)
             val detail = itemView.findViewById<TextView>(R.id.txtLhtDetail)
         }

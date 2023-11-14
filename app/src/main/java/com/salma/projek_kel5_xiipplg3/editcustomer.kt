@@ -28,6 +28,7 @@ class editcustomer : AppCompatActivity() {
         binding.inpHrgaEdCust.setText(data[0].harga.toString())
         binding.inpTglEdCust.setText(data[0].tanggal)
         binding.inpTglSelesiEdCust.setText(data[0].selesai)
+
         binding.btnedtcust.setOnClickListener {
 
             if (binding.inpNamaEdCust.text.isNotEmpty()&&
