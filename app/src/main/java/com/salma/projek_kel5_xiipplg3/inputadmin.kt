@@ -35,7 +35,6 @@ class inputadmin : AppCompatActivity() {
             ) {
                 Database.DAOCustomer().Insertdataadmin(
                     admin(
-                        0,
                         binding.editTextTextPersonName7.text.toString(),
                         binding.editTextTextPersonName15.text.toString()
 

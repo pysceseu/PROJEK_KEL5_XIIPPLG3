@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/leftInpCus"
+            android:id="@+id/leftIDetCus"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="20dp"
@@ -34,18 +34,18 @@
             android:text="Detail data customer"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
-            app:layout_constraintBottom_toBottomOf="@+id/leftInpCus"
-            app:layout_constraintStart_toEndOf="@+id/leftInpCus" />
+            app:layout_constraintBottom_toBottomOf="@+id/leftIDetCus"
+            app:layout_constraintStart_toEndOf="@+id/leftIDetCus" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="650dp"
-        android:layout_marginTop="100dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="60dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
 
         <LinearLayout
             android:layout_width="140dp"
@@ -58,29 +58,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/jost_bold"
-                android:textSize="22dp"
+                android:text="Id"
                 android:textColor="@color/black"
-                android:text="Id" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost_bold"
-                android:textSize="22dp"
                 android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:text="Nama"
                 android:textColor="@color/black"
-                android:text="Nama" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost_bold"
                 android:layout_marginTop="15dp"
+                android:fontFamily="@font/jost_bold"
+                android:text="Alamat"
                 android:textColor="@color/black"
-                android:textSize="22dp"
-                android:text="Alamat" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -88,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/jost_bold"
-                android:text="Hasil"
+                android:text="Berat"
                 android:textColor="@color/black"
                 android:textSize="22dp" />
 
@@ -96,19 +96,9 @@
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/jost_bold"
-                android:textSize="22dp"
-                android:layout_marginTop="15dp"
-                android:textColor="@color/black"
-                android:text="Berat" />
-
-            <TextView
-                android:id="@+id/textView20"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/jost_bold"
-                android:text="Harga"
+                android:text="Total"
                 android:textColor="@color/black"
                 android:textSize="22dp" />
 
@@ -142,80 +132,70 @@
                 android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="22dp"
                 android:fontFamily="@font/jost_bold"
+                android:text=":"
                 android:textColor="@color/black"
-                android:text=":" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView27"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="22dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/jost_bold"
+                android:text=":"
                 android:textColor="@color/black"
-                android:text=":" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView28"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="22dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/jost_bold"
+                android:text=":"
                 android:textColor="@color/black"
-                android:text=":" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="22dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/jost_bold"
+                android:text=":"
                 android:textColor="@color/black"
-                android:text=":" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView30"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="22dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/jost_bold"
+                android:text=":"
                 android:textColor="@color/black"
-                android:text=":" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView31"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="22dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/jost_bold"
+                android:text=":"
                 android:textColor="@color/black"
-                android:text=":" />
+                android:textSize="22dp" />
 
             <TextView
                 android:id="@+id/textView32"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="22dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/jost_bold"
+                android:text=":"
                 android:textColor="@color/black"
-                android:text=":" />
-
-            <TextView
-                android:id="@+id/textView33"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="22dp"
-                android:layout_marginTop="15dp"
-                android:fontFamily="@font/jost_bold"
-                android:textColor="@color/black"
-                android:text=":" />
+                android:textSize="22dp" />
 
         </LinearLayout>
 
@@ -248,7 +228,7 @@
                 android:textSize="22dp" />
 
             <TextView
-                android:id="@+id/txthasil"
+                android:id="@+id/txtberatt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -256,15 +236,7 @@
                 android:textSize="22dp" />
 
             <TextView
-                android:id="@+id/txtberat"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="TextView"
-                android:textSize="22dp" />
-
-            <TextView
-                android:id="@+id/txtharga"
+                android:id="@+id/txttotal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"

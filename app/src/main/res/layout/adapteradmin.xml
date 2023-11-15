@@ -36,7 +36,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/jost_bold"
                     android:paddingLeft="15dp"
-                    android:text="Id"
+                    android:text="Admin"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
 
@@ -47,7 +47,7 @@
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/jost_bold"
                     android:paddingLeft="15dp"
-                    android:text="Nama"
+                    android:text="Cust"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
             </LinearLayout>
@@ -99,7 +99,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/jost_bold"
-                    android:text="Id Admin"
+                    android:text="Nama Admin"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
 
@@ -109,7 +109,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/jost_bold"
-                    android:text="Nama Admin"
+                    android:text="Nama Customer"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
             </LinearLayout>

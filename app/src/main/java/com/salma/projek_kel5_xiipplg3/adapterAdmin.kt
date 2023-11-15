@@ -12,8 +12,8 @@ import com.salma.projek_kel5_xiipplg3.db.admin
 class adapterAdmin (val list: ArrayList<admin>, var listener: OnClickListener)
     : RecyclerView.Adapter<adapterAdmin.ViewHolder>() {
         class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-            val idAdm = itemView.findViewById<TextView>(R.id.txtIdAdmAdp)
-            val namaAdm = itemView.findViewById<TextView>(R.id.txtNmAdmAdp)
+            val namaAdm = itemView.findViewById<TextView>(R.id.txtIdAdmAdp)
+            val namaCust = itemView.findViewById<TextView>(R.id.txtNmAdmAdp)
             val hapusAdm = itemView.findViewById<ImageView>(R.id.imgHps)
             val editAdm = itemView.findViewById<ImageView>(R.id.imgEdit)
         }
@@ -26,8 +26,8 @@ class adapterAdmin (val list: ArrayList<admin>, var listener: OnClickListener)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.idAdm.text = list[position].namaAdmin
-        holder.namaAdm.text = list[position].namaCustomer
+        holder.namaAdm.text = list[position].namaAdmin
+        holder.namaCust.text = list[position].namaCustomer
 
         holder.hapusAdm.setOnClickListener {
             listener.onDelete(list[position])

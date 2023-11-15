@@ -17,6 +17,10 @@ class editcustomer : AppCompatActivity() {
         binding = ActivityEditcustomerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.imgLeftEdcus.setOnClickListener {
+            startActivity(Intent(this, tampilcustomer::class.java))
+        }
+
         val id = intent.getStringExtra("idCustomer").toString().toInt()
         val data = db.DAOCustomer().getDataIdCustomer(id)
 

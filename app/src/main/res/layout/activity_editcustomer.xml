@@ -41,7 +41,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout3"
         android:layout_width="370dp"
-        android:layout_height="520dp"
+        android:layout_height="500dp"
         android:layout_marginTop="70dp"
         android:background="@drawable/hh"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,8 +59,8 @@
             android:hint="Tanggal"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/inpHrgaEdCust"
-            app:layout_constraintStart_toStartOf="@+id/inpHrgaEdCust"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inpHrgaEdCust" />
 
         <EditText
@@ -80,7 +80,7 @@
 
         <EditText
             android:id="@+id/inpHrgaEdCust"
-            android:layout_width="330dp"
+            android:layout_width="280dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/aa"
@@ -89,7 +89,6 @@
             android:hint="Harga"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/inpBeratEdCust"
             app:layout_constraintStart_toStartOf="@+id/inpBeratEdCust"
             app:layout_constraintTop_toBottomOf="@+id/inpBeratEdCust" />
 
@@ -143,21 +142,21 @@
             android:id="@+id/imgKaliEdCust"
             android:layout_width="52dp"
             android:layout_height="36dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/inpHrgaEdCust"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inpTglSelesiEdCust"
+            app:layout_constraintStart_toEndOf="@+id/inpHrgaEdCust"
+            app:layout_constraintTop_toTopOf="@+id/inpHrgaEdCust"
             app:srcCompat="@drawable/ic_baseline_check_24" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="70dp"
             android:text="0"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/inpTglSelesiEdCust"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inpTglSelesiEdCust" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

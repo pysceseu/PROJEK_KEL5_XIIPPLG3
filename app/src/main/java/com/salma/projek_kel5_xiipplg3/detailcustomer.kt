@@ -15,7 +15,7 @@ class detailcustomer : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.leftInpCus.setOnClickListener { onBackPressed() }
+        binding.leftIDetCus.setOnClickListener { onBackPressed() }
         var id = intent.getStringExtra("idcustomer").toString().toInt()
         val data = db.DAOCustomer().getDataIdCustomer(id)[0]
         val hasil = data.berat.toDouble() * data.harga.toString().toDouble()
@@ -25,10 +25,10 @@ class detailcustomer : AppCompatActivity() {
             txtid.setText(data.id.toString())
             txtnama.setText(data.nama)
             txtalamat.setText(data.alamat)
-            txtberat.setText(data.berat)
+            txtberatt.setText(data.berat)
             txttanggal.setText(data.tanggal)
             txtselesai.setText(data.selesai)
-            txthasil.setText(hasil.toString())
+            txttotal.setText(hasil.toString())
         }
 
     }

@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/leftInpCus"
+            android:id="@+id/leftIDetCus"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="20dp"
@@ -34,14 +34,14 @@
             android:text="Input data customer"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
-            app:layout_constraintBottom_toBottomOf="@+id/leftInpCus"
-            app:layout_constraintStart_toEndOf="@+id/leftInpCus" />
+            app:layout_constraintBottom_toBottomOf="@+id/leftIDetCus"
+            app:layout_constraintStart_toEndOf="@+id/leftIDetCus" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout3"
         android:layout_width="370dp"
-        android:layout_height="520dp"
+        android:layout_height="500dp"
         android:layout_marginTop="70dp"
         android:background="@drawable/hh"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,7 +80,7 @@
 
         <EditText
             android:id="@+id/inpHargaa"
-            android:layout_width="330dp"
+            android:layout_width="280dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/aa"
@@ -89,8 +89,6 @@
             android:hint="Harga"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="@+id/inpBeratt"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/inpBeratt"
             app:layout_constraintTop_toBottomOf="@+id/inpBeratt" />
 
@@ -143,20 +141,20 @@
             android:id="@+id/imgKali"
             android:layout_width="52dp"
             android:layout_height="36dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/inpHargaa"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inpTglSelesai"
+            app:layout_constraintStart_toEndOf="@+id/inpHargaa"
+            app:layout_constraintTop_toTopOf="@+id/inpHargaa"
             app:srcCompat="@drawable/ic_baseline_check_24" />
 
         <TextView
             android:id="@+id/HasilInp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="70dp"
             android:text="0"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inpTglSelesai" />
 

@@ -39,7 +39,7 @@ class inputcustomer : AppCompatActivity() {
         }
 
         Database = database.getInstances(applicationContext)
-        binding.leftInpCus.setOnClickListener {
+        binding.leftIDetCus.setOnClickListener {
             startActivity(Intent(this, dashboard::class.java))
         }
         binding.btninpcust.setOnClickListener {
