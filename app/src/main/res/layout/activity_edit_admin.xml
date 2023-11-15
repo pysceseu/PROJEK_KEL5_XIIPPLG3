@@ -9,10 +9,10 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout3"
         android:layout_width="match_parent"
-        android:layout_height="364dp"
+        android:layout_height="360dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="144dp"
         android:background="@drawable/dd"
         android:backgroundTint="#73479ECE"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,7 +95,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="64dp"
+            android:layout_marginStart="24dp"
             android:layout_marginEnd="118dp"
             android:fontFamily="@font/lilita_one"
             android:text="Edit data admin"
@@ -103,7 +103,7 @@
             android:textSize="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgleftEditadm"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
