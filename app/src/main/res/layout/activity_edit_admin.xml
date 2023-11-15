@@ -56,14 +56,14 @@
             android:id="@+id/btnSimpanEdadmin"
             android:layout_width="221dp"
             android:layout_height="56dp"
-            android:layout_marginStart="82dp"
-            android:layout_marginTop="37dp"
+            android:layout_marginTop="35dp"
             android:background="@drawable/ii"
             android:fontFamily="@font/jost_bold"
             android:text="s i m p a n"
             android:textColor="@color/white"
             android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/inpNamacus"
+            app:layout_constraintStart_toStartOf="@+id/inpNamacus"
             app:layout_constraintTop_toBottomOf="@+id/inpNamacus" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
