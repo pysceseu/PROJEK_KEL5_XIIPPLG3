@@ -21,7 +21,6 @@
             android:layout_height="30dp"
             android:layout_marginStart="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imgKali"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
@@ -41,9 +40,11 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout3"
-        android:layout_width="370dp"
+        android:layout_width="match_parent"
         android:layout_height="500dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="70dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/hh"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,9 +52,11 @@
 
         <EditText
             android:id="@+id/inpTgl"
-            android:layout_width="330dp"
+            android:layout_width="310dp"
             android:layout_height="50dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
             android:background="@drawable/aa"
             android:ems="10"
             android:fontFamily="@font/jost_bold"
@@ -66,7 +69,7 @@
 
         <EditText
             android:id="@+id/inpTglSelesai"
-            android:layout_width="330dp"
+            android:layout_width="310dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/aa"
@@ -75,13 +78,13 @@
             android:hint="Selesai"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/inpTgl"
+            app:layout_constraintStart_toStartOf="@+id/inpTgl"
             app:layout_constraintTop_toBottomOf="@+id/inpTgl" />
 
         <EditText
             android:id="@+id/inpHargaa"
-            android:layout_width="280dp"
+            android:layout_width="260dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/aa"
@@ -95,7 +98,7 @@
 
         <EditText
             android:id="@+id/inpBeratt"
-            android:layout_width="330dp"
+            android:layout_width="310dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/aa"
@@ -110,7 +113,7 @@
 
         <EditText
             android:id="@+id/inpAlamatcus"
-            android:layout_width="330dp"
+            android:layout_width="310dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/aa"
@@ -125,9 +128,11 @@
 
         <EditText
             android:id="@+id/inpNamacus"
-            android:layout_width="330dp"
+            android:layout_width="310dp"
             android:layout_height="50dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
             android:background="@drawable/aa"
             android:ems="10"
             android:fontFamily="@font/jost_bold"
@@ -142,6 +147,7 @@
             android:id="@+id/imgKali"
             android:layout_width="52dp"
             android:layout_height="36dp"
+            android:layout_marginEnd="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/inpHargaa"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/inpHargaa"

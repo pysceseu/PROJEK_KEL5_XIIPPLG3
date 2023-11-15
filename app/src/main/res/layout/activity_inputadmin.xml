@@ -8,18 +8,20 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout3"
-        android:layout_width="384dp"
-        android:layout_height="364dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="148dp"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="144dp"
         android:background="@drawable/dd"
         android:backgroundTint="#73479ECE"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <EditText
             android:id="@+id/editTextTextPersonName15"
-            android:layout_width="330dp"
+            android:layout_width="310dp"
             android:layout_height="55dp"
             android:layout_marginTop="17dp"
             android:layout_marginBottom="37dp"
@@ -36,7 +38,7 @@
 
         <EditText
             android:id="@+id/editTextTextPersonName7"
-            android:layout_width="330dp"
+            android:layout_width="310dp"
             android:layout_height="55dp"
             android:layout_marginTop="70dp"
             android:background="@drawable/aa"
@@ -53,14 +55,14 @@
             android:id="@+id/button3"
             android:layout_width="221dp"
             android:layout_height="56dp"
-            android:layout_marginStart="82dp"
-            android:layout_marginTop="37dp"
+            android:layout_marginTop="35dp"
             android:background="@drawable/ii"
             android:fontFamily="@font/jost_bold"
             android:text="s i m p a n"
             android:textColor="@color/white"
             android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName15"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName15"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName15" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
