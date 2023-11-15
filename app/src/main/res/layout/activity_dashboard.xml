@@ -126,6 +126,7 @@
             android:layout_height="match_parent"
             android:background="@drawable/ee"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -134,7 +135,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="24dp"
                 android:fontFamily="@font/lilita_one"
                 android:text="My Laundry"
                 android:textColor="#FFFFFF"
@@ -184,7 +185,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="25dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="35dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />

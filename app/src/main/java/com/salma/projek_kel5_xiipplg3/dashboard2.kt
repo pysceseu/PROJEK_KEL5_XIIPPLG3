@@ -14,11 +14,11 @@ class dashboard2 : AppCompatActivity() {
         binding= ActivityDashboard2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.sayangkuhh.setOnClickListener {
+        binding.gg.setOnClickListener {
             startActivity(Intent(this, login::class.java))
         }
 
-        binding.lopeee.setOnClickListener {
+        binding.ll.setOnClickListener {
             startActivity(Intent(this, register::class.java))
         }
     }

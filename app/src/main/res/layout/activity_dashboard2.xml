@@ -11,7 +11,6 @@
         android:id="@+id/imageView2"
         android:layout_width="360dp"
         android:layout_height="311dp"
-        android:layout_marginTop="38dp"
         android:layout_marginBottom="308dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +51,7 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/sayangkuhh"
+                android:id="@+id/gg"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -111,7 +110,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/lopeee"
+                android:id="@+id/ll"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
