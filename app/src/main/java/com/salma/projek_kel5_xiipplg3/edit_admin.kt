@@ -19,7 +19,7 @@ class edit_admin : AppCompatActivity() {
         binding = ActivityEditAdminBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.imgleftEditadm.setOnClickListener {
+        binding.btnSimpanEdadmin.setOnClickListener {
             startActivity(Intent(this, tampiladmin::class.java))
             val nama = intent.getStringExtra("nmadmin").toString() //menerima id
             val data = db.DAOCustomer().getDatanamaAdmin(nama)
