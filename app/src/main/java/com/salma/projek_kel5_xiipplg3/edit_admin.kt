@@ -21,20 +21,20 @@ class edit_admin : AppCompatActivity() {
 
         binding.btnSimpanEdadmin.setOnClickListener {
             startActivity(Intent(this, tampiladmin::class.java))
-            val nama = intent.getStringExtra("nmadmin").toString() //menerima id
+            val nama = intent.getStringExtra("nmadmin").toString() //menerima nama
             val data = db.DAOCustomer().getDatanamaAdmin(nama)
 
-            binding.inpNamaadmin.setText(data[0].namaAdmin)
-            binding.inpNamacus.setText(data[0].namaCustomer)
+            binding.edtNamaadmin.setText(data[0].namaAdmin)
+            binding.edtNamacus.setText(data[0].namaCustomer)
             binding.btnSimpanEdadmin.setOnClickListener {
-                if (binding.inpNamaadmin.text.isNotEmpty() &&
-                    binding.inpNamacus.text.isNotEmpty()
+                if (binding.edtNamaadmin.text.isNotEmpty() &&
+                    binding.edtNamacus.text.isNotEmpty()
                 ) {
 
                     db.DAOCustomer().Updatedataadmin(
                         admin(
-                            binding.inpNamaadmin.text.toString(),
-                            binding.inpNamacus.text.toString()
+                            binding.edtNamaadmin.text.toString(),
+                            binding.edtNamacus.text.toString()
                         )
                     )
 

@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <EditText
-            android:id="@+id/inpNamacus"
+            android:id="@+id/edtNamacus"
             android:layout_width="330dp"
             android:layout_height="55dp"
             android:layout_marginTop="17dp"
@@ -35,10 +35,10 @@
             app:layout_constraintBottom_toTopOf="@+id/btnSimpanEdadmin"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inpNamaadmin" />
+            app:layout_constraintTop_toBottomOf="@+id/edtNamaadmin" />
 
         <EditText
-            android:id="@+id/inpNamaadmin"
+            android:id="@+id/edtNamaadmin"
             android:layout_width="330dp"
             android:layout_height="55dp"
             android:layout_marginTop="70dp"
@@ -62,9 +62,9 @@
             android:text="s i m p a n"
             android:textColor="@color/white"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@+id/inpNamacus"
-            app:layout_constraintStart_toStartOf="@+id/inpNamacus"
-            app:layout_constraintTop_toBottomOf="@+id/inpNamacus" />
+            app:layout_constraintEnd_toEndOf="@+id/edtNamacus"
+            app:layout_constraintStart_toStartOf="@+id/edtNamacus"
+            app:layout_constraintTop_toBottomOf="@+id/edtNamacus" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
