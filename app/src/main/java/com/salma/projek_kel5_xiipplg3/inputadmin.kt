@@ -30,18 +30,18 @@ class inputadmin : AppCompatActivity() {
         }
         Database = database.getInstances(applicationContext)
         binding.button3.setOnClickListener {
-            if (binding.editTextTextPersonName7.text.isNotEmpty() &&
-                binding.editTextTextPersonName15.text.isNotEmpty()
+            if (binding.txtinputAdm.text.isNotEmpty() &&
+                binding.txtinputcustAdm.text.isNotEmpty()
             ) {
                 Database.DAOCustomer().Insertdataadmin(
                     admin(
-                        binding.editTextTextPersonName7.text.toString(),
-                        binding.editTextTextPersonName15.text.toString()
+                        binding.txtinputAdm.text.toString(),
+                        binding.txtinputcustAdm.text.toString()
 
                     )
                 )
-                binding.editTextTextPersonName7.setText("")
-                binding.editTextTextPersonName15.setText("")
+                binding.txtinputAdm.setText("")
+                binding.txtinputcustAdm.setText("")
             }
             startActivity(
                 Intent(this, tampiladmin::class.java)

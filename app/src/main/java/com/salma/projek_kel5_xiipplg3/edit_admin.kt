@@ -23,7 +23,9 @@ class edit_admin : AppCompatActivity() {
 
             binding.edtNamaadmin.setText(data[0].namaAdmin)
             binding.edtNamacus.setText(data[0].namaCustomer)
+
             binding.btnSimpanEdadmin.setOnClickListener {
+
                 if (binding.edtNamaadmin.text.isNotEmpty() &&
                     binding.edtNamacus.text.isNotEmpty()
                 ) {
