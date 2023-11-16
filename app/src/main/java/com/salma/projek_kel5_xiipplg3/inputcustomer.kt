@@ -130,6 +130,3 @@ class inputcustomer : AppCompatActivity() {
     }
 
 }
-
-
-

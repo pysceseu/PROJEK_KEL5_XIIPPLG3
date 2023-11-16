@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Toast
 import com.salma.projek_kel5_xiipplg3.databinding.ActivityEditAdminBinding
 import com.salma.projek_kel5_xiipplg3.db.admin
-import com.salma.projek_kel5_xiipplg3.db.customer
 import com.salma.projek_kel5_xiipplg3.db.database
 
 class edit_admin : AppCompatActivity() {
@@ -19,8 +18,6 @@ class edit_admin : AppCompatActivity() {
         binding = ActivityEditAdminBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnSimpanEdadmin.setOnClickListener {
-            startActivity(Intent(this, tampiladmin::class.java))
             val nama = intent.getStringExtra("nmadmin").toString() //menerima nama
             val data = db.DAOCustomer().getDatanamaAdmin(nama)
 
@@ -53,4 +50,4 @@ class edit_admin : AppCompatActivity() {
                 }
             }
         }
-    }}
+    }
